@@ -2,7 +2,7 @@
 ####Variable Rules And URL Building
 
 from flask import Flask,redirect,url_for
-
+import pandas
 app=Flask(__name__)
 
 @app.route('/')
